@@ -42,4 +42,4 @@ Expenses:        195.75
 Total:          2119.00
 ```
 
-Your program output should be formatted as shown here. Note number of decimal places for dollar amount and the percentage (they differ). Also, note that dollar amount are aligned on the right.
+Your program output should be formatted as shown here. Note the number of decimal places for the dollar amount and the percentage (they differ). Also, note that dollar amounts are aligned on the right.
