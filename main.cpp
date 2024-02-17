@@ -47,3 +47,4 @@ int main() {
   cout << "Expenses:    " << setw(10) << expenses << endl;
   cout << "               --------\n";
   cout << "Total:       " << setw(10) << total << endl;
+}
