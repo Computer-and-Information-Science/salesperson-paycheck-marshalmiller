@@ -20,10 +20,10 @@ int main() {
   cout << "Enter file name: ";
   getline(cin, fname);
   fin.open(fname);
-  if (!fin) {
-    cout << "Could not open file " << fname << endl;
-    exit(0);
-  }
+    if (!fin) {
+      cout << "Could not open file " << fname << endl;
+      exit(0);
+    }
 
   // Input employee information from the file
   fin >> first >> last; // Line 1: first and last name
@@ -43,9 +43,7 @@ int main() {
   cout << fixed << setprecision(2);
   cout << "Payroll data for " << first << " " << last << endl << endl;
   cout << "Base Salary: " << setw(10) << salary << endl;
-  cout << "Commission:  " << setw(10) << commission << " (" <<
-    setprecision(1) << commission_pct << setprecision(2) << "% of " <<
-    total_sales << ")\n";
+  cout << "Commission:  " << setw(10) << commission << " (" << setprecision(1) << commission_pct << setprecision(2) << "% of " << total_sales << ")\n";
   cout << "Expenses:    " << setw(10) << expenses << endl;
   cout << "               --------\n";
   cout << "Total:       " << setw(10) << total << endl;
